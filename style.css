@@ -1,0 +1,28 @@
+nav a {
+  text-decoration: none;
+  color: #003366;
+  font-weight: 500;
+  flex: 1;
+  text-align: center;
+}
+
+nav a:hover {
+  color: #0055aa;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+}
